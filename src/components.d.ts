@@ -29,33 +29,31 @@ declare global {
 declare global {
 
   namespace StencilComponents {
-    interface MyComponent {
-      'first': string;
-      'last': string;
+    interface ProkaryoteLoader {
+
     }
   }
 
-  interface HTMLMyComponentElement extends StencilComponents.MyComponent, HTMLStencilElement {}
+  interface HTMLProkaryoteLoaderElement extends StencilComponents.ProkaryoteLoader, HTMLStencilElement {}
 
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  var HTMLProkaryoteLoaderElement: {
+    prototype: HTMLProkaryoteLoaderElement;
+    new (): HTMLProkaryoteLoaderElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'prokaryote-loader': HTMLProkaryoteLoaderElement;
   }
   interface ElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'prokaryote-loader': HTMLProkaryoteLoaderElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'my-component': JSXElements.MyComponentAttributes;
+      'prokaryote-loader': JSXElements.ProkaryoteLoaderAttributes;
     }
   }
   namespace JSXElements {
-    export interface MyComponentAttributes extends HTMLAttributes {
-      'first'?: string;
-      'last'?: string;
+    export interface ProkaryoteLoaderAttributes extends HTMLAttributes {
+
     }
   }
 }
