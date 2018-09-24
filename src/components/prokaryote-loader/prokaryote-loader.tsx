@@ -1,4 +1,4 @@
-import { Component, Element } from '@stencil/core';
+import { Component, Element, Prop } from '@stencil/core';
 import { TimelineMax, Elastic, Power1 } from 'gsap';
 
 @Component({
@@ -8,6 +8,8 @@ import { TimelineMax, Elastic, Power1 } from 'gsap';
 })
 export class ProkaryoteLoader {
   @Element() el: HTMLElement;
+  
+  @Prop() message: string;
   
   ts: TimelineMax;
   running: boolean = false;
@@ -28,7 +30,10 @@ export class ProkaryoteLoader {
   }
   
   render() {
+    var message = null;
+    if (this.message) { message = (<p>{ this.message }</p>); }
     return (
+        <div class="container">
         <svg  xmlns="http://www.w3.org/2000/svg" version="1.1">
           <g filter="url(#sticky)">
             <circle
@@ -56,6 +61,8 @@ export class ProkaryoteLoader {
             <feBlend in="SourceGraphic" in2="goo" />
           </filter>
         </svg>
+        { message }
+        </div>
     );
   }
 }

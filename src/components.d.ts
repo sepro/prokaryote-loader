@@ -30,7 +30,7 @@ declare global {
 
   namespace StencilComponents {
     interface ProkaryoteLoader {
-
+      'message': string;
     }
   }
 
@@ -53,7 +53,7 @@ declare global {
   }
   namespace JSXElements {
     export interface ProkaryoteLoaderAttributes extends HTMLAttributes {
-
+      'message'?: string;
     }
   }
 }
