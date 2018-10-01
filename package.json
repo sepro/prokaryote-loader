@@ -16,6 +16,7 @@
     "test.watch": "jest --watch"
   },
   "dependencies": {
+    "@types/gsap": "^1.19.2",
     "gsap": "^2.0.2"
   },
   "devDependencies": {
