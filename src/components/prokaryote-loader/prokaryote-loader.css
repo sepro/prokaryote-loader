@@ -10,6 +10,11 @@
   flex-direction: column;
 }
 
+svg {
+  height:238px;
+  width:238px 
+}
+
 p {
   text-align: center;
 }
