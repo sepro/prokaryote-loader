@@ -2,7 +2,7 @@
 
 # Animated loading web component
 
-Animated loader (built using stencil and gsap) that can easily be dropped into existing projects. Check out our [DEMO](sepro.github.com/prokaryote-loader)
+Animated loader (built using stencil and gsap) that can easily be dropped into existing projects. Check out our [DEMO](https://sepro.github.com/prokaryote-loader)
 
     <prokaryote-loader></prokaryote-loader>
 
