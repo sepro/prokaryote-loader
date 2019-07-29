@@ -5,8 +5,7 @@ export const config: Config = {
   outputTargets:[
     {
       type: 'dist',
-      buildDir: 'prokaryote-loader',
-      dir: 'docs/build'
+      buildDir: 'prokaryote-loader'
     },
     {
       type: 'www',
