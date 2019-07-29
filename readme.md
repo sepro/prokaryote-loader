@@ -14,7 +14,7 @@ Optionally a message can be included:
 
 Get the latest build from [here](https://github.com/sepro/prokaryote-loader/releases), add it to your web project (here in the folder js) and load **prokaryote-loader.js** in the html page header.
 
-    <script src="./js/sepro-venn.js"></script>
+    <script src="./js/prokaryote-loader.js"></script>
 
 Throughout the page you can now include loading animations using the **prokaryote-loader** tag.
 
