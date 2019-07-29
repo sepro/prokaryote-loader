@@ -17,7 +17,13 @@
   },
   "dependencies": {
     "@types/gsap": "^1.19.2",
-    "gsap": "^2.0.2"
+    "gsap": "^2.0.2",
+    "merge": ">=1.2.1",
+    "bl": ">=0.9.5",
+    "js-yaml": ">=3.13.1",
+    "mem": ">=4.0.0",
+    "lodash": ">=4.17.13",
+    "handlebars": ">=4.0.14"
   },
   "devDependencies": {
     "@stencil/core": "^0.13.2",
