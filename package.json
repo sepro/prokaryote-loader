@@ -10,8 +10,8 @@
     "dist/"
   ],
   "scripts": {
-    "build": "stencil build",
-    "start": "stencil build --dev --watch --serve",
+    "build": "stencil build --es5",
+    "start": "stencil build --es5 --watch --serve",
     "test": "jest",
     "test.watch": "jest --watch"
   },

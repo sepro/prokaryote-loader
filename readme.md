@@ -10,8 +10,3 @@ Optionally a message can be included:
 
     <prokaryote-loader message="Loading... Please wait..."></prokaryote-loader>
 
-## Push example to gh-pages
-
-Prepare a demo in the gh-pages folder and push this to the projects gh-page using the command below.
-
-    git subtree push --prefix gh-pages origin gh-pages
