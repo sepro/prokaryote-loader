@@ -16,7 +16,7 @@ Get the latest build from [here](https://github.com/sepro/prokaryote-loader/rele
 
     <script src="./js/sepro-venn.js"></script>
 
-Throughout the page you can now include venn diagrams using the **prokaryote-loader** tag.
+Throughout the page you can now include loading animations using the **prokaryote-loader** tag.
 
     <prokaryote-loader message="Loading... Please wait..."></prokaryote-loader>
 
