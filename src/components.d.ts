@@ -5,29 +5,16 @@
  */
 
 
-import '@stencil/core';
-
-
+import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-
   interface ProkaryoteLoader {
     'message': string;
-  }
-  interface ProkaryoteLoaderAttributes extends StencilHTMLAttributes {
-    'message'?: string;
   }
 }
 
 declare global {
-  interface StencilElementInterfaces {
-    'ProkaryoteLoader': Components.ProkaryoteLoader;
-  }
-
-  interface StencilIntrinsicElements {
-    'prokaryote-loader': Components.ProkaryoteLoaderAttributes;
-  }
 
 
   interface HTMLProkaryoteLoaderElement extends Components.ProkaryoteLoader, HTMLStencilElement {}
@@ -35,22 +22,28 @@ declare global {
     prototype: HTMLProkaryoteLoaderElement;
     new (): HTMLProkaryoteLoaderElement;
   };
-
   interface HTMLElementTagNameMap {
-    'prokaryote-loader': HTMLProkaryoteLoaderElement
-  }
-
-  interface ElementTagNameMap {
     'prokaryote-loader': HTMLProkaryoteLoaderElement;
   }
-
-
-  export namespace JSX {
-    export interface Element {}
-    export interface IntrinsicElements extends StencilIntrinsicElements {
-      [tagName: string]: any;
-    }
-  }
-  export interface HTMLAttributes extends StencilHTMLAttributes {}
-
 }
+
+declare namespace LocalJSX {
+  interface ProkaryoteLoader extends JSXBase.HTMLAttributes<HTMLProkaryoteLoaderElement> {
+    'message'?: string;
+  }
+
+  interface IntrinsicElements {
+    'prokaryote-loader': ProkaryoteLoader;
+  }
+}
+
+export { LocalJSX as JSX };
+
+
+declare module "@stencil/core" {
+  export namespace JSX {
+    interface IntrinsicElements extends LocalJSX.IntrinsicElements {}
+  }
+}
+
+
