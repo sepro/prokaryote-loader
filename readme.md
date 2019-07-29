@@ -10,3 +10,16 @@ Optionally a message can be included:
 
     <prokaryote-loader message="Loading... Please wait..."></prokaryote-loader>
 
+# Usage
+
+Get the latest build from [here](https://github.com/sepro/prokaryote-loader/releases), add it to your web project (here in the folder js) and load **prokaryote-loader.js** in the html page header.
+
+    <script src="./js/sepro-venn.js"></script>
+
+Throughout the page you can now include venn diagrams using the **prokaryote-loader** tag.
+
+    <prokaryote-loader message="Loading... Please wait..."></prokaryote-loader>
+
+# Acknowledgements
+
+This library was initiated as a personal, hobby project to combine GSAP with Stencil.js. Prokaryote-loader is now further developped at [KULeuven](https://www.kuleuven.be/kuleuven/) and [VIB](http://www.vib.be/) where it is also included in other (upcoming) software projects.
