@@ -1,10 +1,12 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'prokaryote_loader',
+  namespace: 'prokaryote-loader',
   outputTargets:[
     {
-      type: 'dist'
+      type: 'dist',
+      buildDir: 'prokaryote-loader',
+      dir: 'docs/build'
     },
     {
       type: 'www',
