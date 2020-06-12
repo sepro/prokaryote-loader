@@ -6,6 +6,7 @@ import { TimelineMax, Elastic } from 'gsap';
   styleUrl: 'prokaryote-loader.css',
   shadow: true
 })
+
 export class ProkaryoteLoader {
   @Element() el: HTMLElement;
   

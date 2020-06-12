@@ -1,1 +1,1 @@
-import{p as a,b as o}from"./p-ab0331a3.js";a().then(a=>o([["p-kgavgcdb",[[1,"prokaryote-loader",{message:[1]}]]]],a));
+import{p as a,b as e}from"./p-642e9da5.js";a().then(a=>e([["p-fd029ed0",[[1,"prokaryote-loader",{message:[1]}]]]],a));

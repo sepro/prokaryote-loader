@@ -1,6 +1,6 @@
 {
   "name": "prokaryote-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Stencil Component Starter",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -12,17 +12,22 @@
   "scripts": {
     "build": "stencil build --es5",
     "start": "stencil build --es5 --watch --serve",
-    "test": "jest",
-    "test.watch": "jest --watch"
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
     "@types/gsap": "^1.19.2",
-    "gsap": "^2.0.2"
+    "gsap": "^2.0.2",
+    "kind-of": "^6.0.3",
+    "typescript": "^3.9.5"
   },
   "devDependencies": {
-    "@stencil/core": "^0.13.2",
-    "@types/jest": "^23.3.2",
-    "jest": "^23.6.0"
+    "@stencil/core": "^1.14.0",
+    "@types/jest": "^26.0.0",
+    "@types/puppeteer": "2.0.1",
+    "jest": "^26.0.1",
+    "jest-cli": "26.0.1",
+    "puppeteer": "2.1.1"
   },
   "repository": {
     "type": "git",
