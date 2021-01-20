@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@types/gsap": "^1.19.2",
-    "gsap": "^2.0.2",
+    "gsap": "^3.6.0",
     "kind-of": "^6.0.3",
     "typescript": "^3.9.5"
   },
