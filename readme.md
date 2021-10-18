@@ -22,4 +22,4 @@ Throughout the page you can now include loading animations using the **prokaryot
 
 # Acknowledgements
 
-This library was initiated as a personal, hobby project to combine GSAP with Stencil.js. Prokaryote-loader is now further developped at [KULeuven](https://www.kuleuven.be/kuleuven/) and [VIB](http://www.vib.be/) where it is also included in other (upcoming) software projects.
+This library was initiated as a personal, hobby project to combine GSAP with Stencil.js. Prokaryote-loader is now further developed at [KULeuven](https://www.kuleuven.be/kuleuven/) and [VIB](http://www.vib.be/) where it is also included in other (upcoming) software projects.
